@@ -51,7 +51,7 @@ inside numeric loops where a box per operation would be paid on every one.
 
 ```sh
 clojure -M:test                                      # JVM
-npx nbb@1.4.210 --classpath src:test run-tests.cljs  # ClojureScript
+npx nbb@1.4.210 --classpath src:test run-tests.cljk  # ClojureScript
 ```
 
 Both run the **same** `.cljc` suite: `4 tests, 25 assertions, 0 failures`.
