@@ -2,7 +2,7 @@
   "Runs on BOTH runtimes. The three operations that justify this library are
   the ones JavaScript lacks, so a JVM-only suite would check exactly the half
   that never needed checking."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [kotoba.math :as m]))
 
 (deftest constants
